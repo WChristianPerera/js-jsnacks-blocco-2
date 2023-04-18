@@ -8,8 +8,8 @@
 
 const myArray = [];
 for (i = 0; i < 6; i++) {
-    let number = prompt(parseInt('Dimmi un numero ?'));
-    if( number % 2 == !0){
+    let number = parseInt(prompt('Dimmi un numero ?'));
+    if( number % 2 !== 0){
         myArray.push(number);
     }
 }
