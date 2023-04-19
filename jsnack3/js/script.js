@@ -3,7 +3,7 @@
 
 
 
-const myArray = [0,1,2,3,4,5,6,7,8,9,];
+const myArray = [1,2,3,4,5,6,7,8,9,];
 let sum = 0;
 
 for (let i = 0; i < myArray.length; i++) {
@@ -12,4 +12,4 @@ for (let i = 0; i < myArray.length; i++) {
     }
 }
 
-console.log("La somma dei numeri dispari è:" + sum);
+console.log("La somma dei numeri in posizione dispari è:" + sum);
